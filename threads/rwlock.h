@@ -1,5 +1,6 @@
 #ifndef SKYNET_RWLOCK_H
 #define SKYNET_RWLOCK_H
+#include "win_atomic.h"
 
 #ifndef USE_PTHREAD_LOCK
 

@@ -2,7 +2,7 @@
 #define SKYNET_ATOMIC_H
 
 #ifdef __STDC_NO_ATOMICS__
-
+#include "win_atomic.h"
 #include <stddef.h>
 
 #define ATOM_INT volatile int
